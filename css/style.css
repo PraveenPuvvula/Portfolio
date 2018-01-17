@@ -1,0 +1,64 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color: #448aff;
+	/*color: #747704;*/
+	display: flex;
+	background-color: #151616;
+	/*background-color: #232526;*/
+	/*background-image: url("C:/Learning/Udacity web/framework/bootstrap-prestructure/images/background.jpg");*/
+	/*background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2016/11/02/colorful-background-hd-1.jpg");
+	background-repeat: no-repeat;
+	height: 100%;*/
+/*	background-color: #F5FFFA;
+*/	background-size: cover;
+}
+
+.text-thin{
+	font-weight: 50;
+}
+
+.text-muted{
+	/*color: #BCBBBB;*/
+	color: #FFFFFF;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+.header{
+	margin-top: 10px;
+}
+
+#first{
+
+}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	background-color: #151616;
+	/*background-color: #232526;*/
+	/*background-color: #F5FFFA;*/
+	/*background-image: url("C:/Learning/Udacity web/framework/bootstrap-prestructure/images/background.jpg");*/
+	/*background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2016/11/02/colorful-background-hd-1.jpg");*/
+
+}
+
+#project1{
+	color: #F5FFFA;
+}
+
+#project2{
+	color: #F5FFFA;
+}
+.nameStyle{
+color: #448aff;
+}
+
+.modal-title{
+	color: #448aff;
+}
