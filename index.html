@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+    	<div class="row">
+    		<!-- <div class="col-md-6">
+    			<img class="img-responsive logo" src="http://www.pilotpointisd.com/cms/lib4/TX01918197/Centricity/Domain/4/Pilot%20Point%20PP.png">
+    		</div> -->
+    		<div class="col-md-6 text-uppercase text-left header">
+    			<h1 class="text-thin">Praveen Puvvula</h1>
+    			<h3 class="">Web Developer</h3>
+    		</div>
+            <div class="col-md-6 text-right header" >
+                <h4 style="margin-top: 5%">e-mail: praveenpuvvula43@gmail.com</h4>
+                <h4>mobile: +1 630-2766-593</h4>
+            </div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-12">
+    			<hr>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-12">
+    			<img class="img-responsive" src="images/cover.jpg">
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-12 text-muted">
+    			<h2 class="nameStyle">Featured Work</h2>
+    		</div>
+    	</div>
+    	<div class="row text-center">
+    		<div class="col-md-6">
+    			<a href="#" data-toggle="modal" data-target="#project1">
+    			<img class="img-responsive" src="images/todo.jpg" id="first">
+    			<h3 class="nameStyle">Interactive JavaScript Todo list</h3>
+    			<p><a href="https://github.com/PraveenPuvvula/Interactive-JS-Todo-List">Link to project</a></p></a>
+    		</div>
+    		<div class="col-md-6">
+                <a href="#" data-toggle="modal" data-target="#project2">
+    			<img class="img-responsive" src="images/machine-learning.jpg" id="second">
+    			<h3 class="nameStyle">ML Voter Prediction</h3>
+    			<p><a href="https://github.com/PraveenPuvvula/ML-Election-Prediction">Link to project</a></p></a>
+    		</div>
+            <div class="col-md-6">
+                <a href="#" data-toggle="modal" data-target="#project3">
+                <img src="images/angularjs.jpg" class="img-responsive" id="third">
+                <h3 class="nameStyle">Simple e-commerce store in Angular</h3>
+                <p><a href="">Link to project</a></p></a>
+            </div>
+
+    		<!-- <div class="col-md-6">
+    			<img class="img-responsive" src="https://www.filmtotaal.nl/images/thumbnails/ft-422282-555x300.jpg" id="third">
+    			<h3>Appify</h3>
+    			<p><a href="https://github.com/PraveenPuvvula">Link to project</a></p>
+    		</div>
+    		<div class="col-md-6">
+    			<img class="img-responsive" src="http://www.rizbit.uk/wp-content/uploads/2017/01/legends_of_tomorrow_Season_2-555x300.png" id="fourth">
+    			<h3>Appify</h3>
+    			<p><a href="https://github.com/PraveenPuvvula">Link to project</a></p>
+    		</div> -->
+    	</div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Todo List app</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="">
+                    <p>This is a fully functional Todo list app written in JavaScript. The app has the following features:
+                    1. Add new item into the todo list<br>
+                    2. Update/Modify a specific item in the todo list<br>
+                    3. Toggle completed items<br>
+                    4. Toggle all items<br>
+                    5. Dynamically display inserted items with an option to delete the record</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby = "myModalLabel2" aria-hidden = "true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Prediction analysis on Voters to check if they're Republican or Democrat</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="img-responsive">
+                    <p>In this project, the machine learning algorithms Naïve Bayes and Decision tree (C5.0) have been implemented on a dataset. The dataset “house-votes.txt” includes votes for each of the U.S. House of Representatives Congressmen. The goal of the project is to predict whether the voter is a republican or a democrat based on their votes.<br><br>
+                    The tasks that are performed in this project are:<br>
+                    1.  Preparing the data by imputing missing values<br>
+                    2.  Implementation of Naïve Bayes, and Decision tree algorithms on the dataset and comparing the performance of the two algorithms<br>
+                    3.  Implementation of 10-fold Cross Validation to estimate how well the algorithms perform<br>
+                    4.  Perform Automated parameter tuning for both the models using “caret” package<br>
+                    5.  Improve the performance of each algorithm by “bagging” (ensemble learning) and the caret package</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
